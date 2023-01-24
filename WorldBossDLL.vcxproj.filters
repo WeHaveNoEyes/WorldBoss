@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="user\main.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\dllmain.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\helpers.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\il2cpp-init.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\pch-il2cpp.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_demo.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_draw.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_dx11.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_impl_win32.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\imgui\imgui_widgets.cpp">
+      <Filter>dependencies\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\kiero\kiero.cpp">
+      <Filter>dependencies\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\kiero\minhook\src\buffer.c">
+      <Filter>dependencies\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\kiero\minhook\src\hook.c">
+      <Filter>dependencies\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\kiero\minhook\src\trampoline.c">
+      <Filter>dependencies\kiero\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\kiero\minhook\src\hde\hde32.c">
+      <Filter>dependencies\kiero\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\kiero\minhook\src\hde\hde64.c">
+      <Filter>dependencies\kiero\minhook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Cache.cpp">
+      <Filter>dependencies\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Data.cpp">
+      <Filter>dependencies\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Resolver.cpp">
+      <Filter>dependencies\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Functions\Callback.cpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Functions\Class.cpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Functions\String.cpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Functions\Thread.cpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\Obfuscators.cpp">
+      <Filter>dependencies\resolver\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\API\_TEMPLATE_API.cpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\API\Camera.cpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\API\Component.cpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\API\GameObject.cpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\API\LayerMask.cpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\API\Object.cpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\API\Rigidbody.cpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Unity\API\Transform.cpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\resolver\Utils\Helper.cpp">
+      <Filter>dependencies\resolver\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="user\user.cpp">
+      <Filter>user</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\gamehook.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\player.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\store.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="framework\util.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="user\main.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-api-functions.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-api-functions-ptr.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-functions.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-metadata-version.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-types.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="appdata\il2cpp-types-ptr.h">
+      <Filter>appdata</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\helpers.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\il2cpp-appdata.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\il2cpp-init.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\pch-il2cpp.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imconfig.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_dx11.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_impl_win32.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imgui_internal.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_rectpack.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_textedit.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\imgui\imstb_truetype.h">
+      <Filter>dependencies\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\kiero.h">
+      <Filter>dependencies\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\minhook\src\buffer.h">
+      <Filter>dependencies\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\minhook\src\trampoline.h">
+      <Filter>dependencies\kiero\minhook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\minhook\src\hde\hde32.h">
+      <Filter>dependencies\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\minhook\src\hde\hde64.h">
+      <Filter>dependencies\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\minhook\src\hde\pstdint.h">
+      <Filter>dependencies\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\minhook\src\hde\table32.h">
+      <Filter>dependencies\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\minhook\src\hde\table64.h">
+      <Filter>dependencies\kiero\minhook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\kiero\minhook\include\MinHook.h">
+      <Filter>dependencies\kiero\minhook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Cache.hpp">
+      <Filter>dependencies\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Data.hpp">
+      <Filter>dependencies\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Defines.hpp">
+      <Filter>dependencies\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Includes.hpp">
+      <Filter>dependencies\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Resolver.hpp">
+      <Filter>dependencies\resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Functions\Callback.hpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Functions\Class.hpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Functions\Domain.hpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Functions\ResolveCall.hpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Functions\String.hpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Functions\Thread.hpp">
+      <Filter>dependencies\resolver\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Defines.hpp">
+      <Filter>dependencies\resolver\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Includes.hpp">
+      <Filter>dependencies\resolver\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Obfuscators.hpp">
+      <Filter>dependencies\resolver\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\API\_TEMPLATE_API.hpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\API\Camera.hpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\API\Component.hpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\API\GameObject.hpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\API\LayerMask.hpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\API\Object.hpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\API\Rigidbody.hpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\API\Transform.hpp">
+      <Filter>dependencies\resolver\unity\api</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Structures\Engine.hpp">
+      <Filter>dependencies\resolver\unity\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Structures\il2cpp.hpp">
+      <Filter>dependencies\resolver\unity\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Structures\il2cppArray.hpp">
+      <Filter>dependencies\resolver\unity\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Structures\il2cppDictionary.hpp">
+      <Filter>dependencies\resolver\unity\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Structures\Includes.hpp">
+      <Filter>dependencies\resolver\unity\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Unity\Structures\System_String.hpp">
+      <Filter>dependencies\resolver\unity\structures</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Utils\Helper.hpp">
+      <Filter>dependencies\resolver\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Utils\Joaat.hpp">
+      <Filter>dependencies\resolver\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\resolver\Utils\VFunc.hpp">
+      <Filter>dependencies\resolver\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="user\user.h">
+      <Filter>user</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\gamehook.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\player.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\store.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\util.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="appdata">
+      <UniqueIdentifier>{39f201d6-3c54-4d06-a5c0-829aa7ab137d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{edad8ac7-3ff4-41b9-ae1d-9fc27c47a969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="user">
+      <UniqueIdentifier>{cf221943-b8ad-48e0-84c9-741fd64dfd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{9dcf4743-c1cf-4193-8837-ed684108735f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\imgui">
+      <UniqueIdentifier>{3f424e02-b0e2-4396-a949-6b75ce80ecd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero">
+      <UniqueIdentifier>{e4b5c47e-3427-416e-a379-493c2a8848fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\resolver">
+      <UniqueIdentifier>{644a814f-9faa-41ef-be84-52727727ed73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero\minhook">
+      <UniqueIdentifier>{ef98d794-7d9f-4674-8535-32ccf82dacfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero\minhook\dll_resources">
+      <UniqueIdentifier>{f0c33ab9-1133-489f-90fe-51aea3637758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero\minhook\include">
+      <UniqueIdentifier>{82ed5a44-f20f-495f-ab01-ce47630245f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero\minhook\src">
+      <UniqueIdentifier>{f610a808-2604-4520-86be-bbf9a77b0fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\kiero\minhook\src\hde">
+      <UniqueIdentifier>{58d5877a-8e8c-4b8d-8ccf-5c73b4f6344f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\resolver\functions">
+      <UniqueIdentifier>{0c2a2af3-03d1-4a6e-8f43-e8a3a3bef7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\resolver\unity">
+      <UniqueIdentifier>{4c9aebd2-05fa-4c97-9cbc-6ec69410b691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\resolver\unity\api">
+      <UniqueIdentifier>{09a71c0b-4b86-4319-922b-147f16cb3531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\resolver\unity\structures">
+      <UniqueIdentifier>{4694d7be-ec65-4036-8998-420212f44c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dependencies\resolver\utils">
+      <UniqueIdentifier>{bb7fcaaf-da6a-4cf4-8251-300645562460}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dependencies\kiero\minhook\dll_resources\MinHook.aps">
+      <Filter>dependencies\kiero\minhook\dll_resources</Filter>
+    </None>
+    <None Include="dependencies\kiero\minhook\dll_resources\MinHook.def">
+      <Filter>dependencies\kiero\minhook\dll_resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dependencies\kiero\minhook\dll_resources\MinHook.rc">
+      <Filter>dependencies\kiero\minhook\dll_resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
